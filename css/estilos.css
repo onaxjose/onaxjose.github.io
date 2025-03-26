@@ -311,10 +311,9 @@ label a {
         gap: 10px; /* Espacio más pequeño entre clases */
     }
 
-    .clase {
-        width: 100%; /* Las clases ocuparán todo el ancho disponible */
+  .clase {
+    width: 90%; /* Usar un ancho porcentual */
     }
-
     .clase h1 {
         font-size: 30px; /* Reducir aún más el tamaño del título */
     }
@@ -327,4 +326,7 @@ label a {
         font-size: 12px; /* Reducir el tamaño del texto del botón */
         padding: 8px;
     }
+    img {
+    max-width: 100%; /* Hacer que las imágenes no se desborden */
+    height: auto; /* Mantener la relación de aspecto */
 }
