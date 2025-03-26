@@ -330,3 +330,21 @@ label a {
     max-width: 100%; /* Hacer que las imágenes no se desborden */
     height: auto; /* Mantener la relación de aspecto */
 }
+    /* Estilo para el contenedor del iframe */
+.contenedor-mapa {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;  /* Relación 16:9, ajustable según necesidad */
+    overflow: hidden;
+}
+
+/* Estilo para el iframe, lo hace responsivo */
+.contenedor-mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
