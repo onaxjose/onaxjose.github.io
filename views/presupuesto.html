@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INFORMACIÓN</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+        <header>
+            <div>
+                <img src="../img/logo_onax2.png" alt="logo_onax2" width="128" height="128">
+            </div>
+            <div class="onaxcrossfit">ONAX CROSSFIT</div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">¿QUIENES SOMOS?</a></li>
+                    <li><a href="galeria.html">GALERÍA</a></li>
+                    <li><a href="productos.html">NUESTRAS CLASES</a></li>
+                    <li><a href="presupuesto.html" class="active">INFORMACIÓN</a></li>
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </nav>
+        </header>
+
+    <main>
+        <section>
+            <h1>Solicita Información</h1>
+            <p>Por favor, completa el formulario para solicitar información personalizada.</p>
+            <form action="#" method="post">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="telefono">Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+                
+                <label for="mensaje">Solicite más información:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                
+                <label>
+                    <input type="checkbox" id="politica" required>
+                    He leído y acepto la 
+                    <a href="politica_privacidad.html" target="_blank">Política de Privacidad</a>
+                </label>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="social">
+            <a href="#"><img src="../img/facebook.png" alt="Facebook" width="128" height="128"></a>
+            <a href="#"><img src="../img/x.png" alt="X" width="128" height="128"></a>
+            <a href="#"><img src="../img/instagram.png" alt="Instagram"  width="128" height="128"></a>
+        </div>
+        <p>
+            <a href="politica_privacidad.html">Dirección de la empresa | Aviso legal</a>
+        </p>
+    </footer>
+</body>
+</html>
