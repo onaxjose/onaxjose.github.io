@@ -237,3 +237,94 @@ label a {
     width: 200px; /* Establecer el ancho fijo para que sea rectangular */
     box-sizing: border-box;
 }
+/* Diseño para pantallas de hasta 768px de ancho (tabletas y smartphones) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Ajustar tamaño de fuente */
+    }
+
+    header {
+        flex-direction: column; /* Colocar los elementos del header en columna */
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column; /* El menú será vertical */
+    }
+
+    nav ul li {
+        margin: 10px 0; /* Aumentar espacio entre los elementos del menú */
+    }
+
+    .onaxcrossfit {
+        width: 90%; /* Hacer el nombre del gimnasio más estrecho */
+    }
+
+    .clases {
+        flex-direction: column; /* Las clases se mostrarán en una columna */
+        gap: 15px; /* Menor espacio entre las clases */
+    }
+
+    .clase {
+        width: 100%; /* Hacer cada clase más estrecha */
+    }
+
+    .clase h1 {
+        font-size: 40px; /* Reducir el tamaño del título */
+    }
+
+    .clase p {
+        font-size: 18px; /* Reducir el tamaño del texto */
+    }
+
+    form {
+        width: 90%; /* Hacer el formulario más estrecho */
+        padding: 10px;
+    }
+
+    button {
+        font-size: 14px; /* Ajustar el tamaño del texto del botón */
+        padding: 8px;
+    }
+}
+
+/* Diseño para pantallas muy pequeñas (smartphones más pequeños) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px; /* Ajustar el tamaño de la fuente */
+    }
+
+    header {
+        padding: 8px;
+    }
+
+    nav ul {
+        flex-direction: column; /* El menú sigue siendo vertical */
+    }
+
+    .onaxcrossfit {
+        width: 100%; /* El nombre del gimnasio ocupará el 100% de ancho */
+        font-size: 20px;
+    }
+
+    .clases {
+        gap: 10px; /* Espacio más pequeño entre clases */
+    }
+
+    .clase {
+        width: 100%; /* Las clases ocuparán todo el ancho disponible */
+    }
+
+    .clase h1 {
+        font-size: 30px; /* Reducir aún más el tamaño del título */
+    }
+
+    .clase p {
+        font-size: 16px; /* Reducir aún más el tamaño del texto */
+    }
+
+    button {
+        font-size: 12px; /* Reducir el tamaño del texto del botón */
+        padding: 8px;
+    }
+}
